@@ -1,0 +1,30 @@
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.controls {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 15vw;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    width: 60%;
+    height: 60%;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin-top: 5%;
+}
+
+.cell {
+    outline: lightgray solid 1px;
+    aspect-ratio: 1;
+}
